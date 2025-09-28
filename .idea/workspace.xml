@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d067e3-4140-4614-bf1a-eea59ef361d1" name="Changes" comment="Manipulação de datas e horários">
-      <change afterPath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/playground/regex/Anotacoes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/playground/regex/ExpressoesRegulares.java" afterDir="false" />
+    <list default="true" id="a4d067e3-4140-4614-bf1a-eea59ef361d1" name="Changes" comment="Expressões Regulares">
+      <change afterPath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/playground/colecoes/ExemploColecoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/playground/streams/ExemploStreams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +130,7 @@
       <workItem from="1758751329545" duration="794000" />
       <workItem from="1758752155138" duration="7752000" />
       <workItem from="1759003038470" duration="3830000" />
-      <workItem from="1759071091979" duration="5400000" />
+      <workItem from="1759071091979" duration="8548000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -148,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759074582196</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Expressões Regulares">
+      <option name="closed" value="true" />
+      <created>1759081582169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759081582169</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +176,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
     <MESSAGE value="Manipulação de datas e horários" />
-    <option name="LAST_COMMIT_MESSAGE" value="Manipulação de datas e horários" />
+    <MESSAGE value="Expressões Regulares" />
+    <option name="LAST_COMMIT_MESSAGE" value="Expressões Regulares" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
