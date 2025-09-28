@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d067e3-4140-4614-bf1a-eea59ef361d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/alura/modelos/TituloOmdb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/playground/datas/TrabalhandoComDatas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a4d067e3-4140-4614-bf1a-eea59ef361d1" name="Changes" comment="Manipulação de datas e horários">
+      <change afterPath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/playground/regex/Anotacoes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/playground/regex/ExpressoesRegulares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaPlayground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPlayground.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/alura/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/alura/modelos/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/alura/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/alura/modelos/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/alura/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/alura/modelos/Titulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/alura/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/alura/principal/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/alura/principal/PrincipalComListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/alura/principal/PrincipalComListas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/playground/consumindoapi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/rafaelgx/javaplayground/playground/consumindoapi/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +31,15 @@
     &quot;assignee&quot;: &quot;Rafael01Gx&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Rafael01Gx/JavaPlayground&quot;,
-    &quot;accountId&quot;: &quot;b57b93a5-adde-4df2-9372-0f9414a6a1c0&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Rafael01Gx/JavaPlayground",
+    "accountId": "f918b53d-5a12-4fdd-8214-78f82bb9b956"
   }
-}</component>
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -138,12 +130,45 @@
       <workItem from="1758751329545" duration="794000" />
       <workItem from="1758752155138" duration="7752000" />
       <workItem from="1759003038470" duration="3830000" />
-      <workItem from="1759071091979" duration="2130000" />
+      <workItem from="1759071091979" duration="5400000" />
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <option name="closed" value="true" />
+      <created>1759074408391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759074408391</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Manipulação de datas e horários">
+      <option name="closed" value="true" />
+      <created>1759074582196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759074582196</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <MESSAGE value="Manipulação de datas e horários" />
+    <option name="LAST_COMMIT_MESSAGE" value="Manipulação de datas e horários" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
