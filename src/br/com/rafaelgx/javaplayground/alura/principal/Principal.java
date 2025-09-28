@@ -5,12 +5,13 @@ import br.com.rafaelgx.javaplayground.alura.calculos.FiltroRecomendacao;
 import br.com.rafaelgx.javaplayground.alura.modelos.Episodio;
 import br.com.rafaelgx.javaplayground.alura.modelos.Filme;
 import br.com.rafaelgx.javaplayground.alura.modelos.Serie;
+import br.com.rafaelgx.javaplayground.alura.modelos.TituloOmdb;
 
 import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme("O poderoso chefão", 1970);
+        Filme meuFilme = new Filme(null);
         meuFilme.setDuracaoEmMinutos(180);
         System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
@@ -24,14 +25,15 @@ public class Principal {
         //meuFilme.totalDeAvaliacoes = 1;
         //System.out.println(meuFilme.pegaMedia());
 
-        Serie lost = new Serie("Lost", 2000);
+        TituloOmdb tituloOmdb = new TituloOmdb("Lost", "2000","300 min");
+        Serie lost = new Serie(tituloOmdb);
         lost.exibeFichaTecnica();
         lost.setTemporadas(10);
         lost.setEpisodiosPorTemporada(10);
         lost.setMinutosPorEpisodio(50);
         System.out.println("Duração para maratonar Lost: " + lost.getDuracaoEmMinutos());
-
-        Filme outroFilme = new Filme("Avatar", 2023);
+        TituloOmdb outrotituloOmdb = new TituloOmdb("Lost", "2000","300 min");
+        Filme outroFilme = new Filme(null);
         outroFilme.setDuracaoEmMinutos(200);
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
@@ -49,7 +51,7 @@ public class Principal {
         episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
 
-        var filmeDoPaulo = new Filme("Dogville", 2003);
+        var filmeDoPaulo = new Filme(null);
         filmeDoPaulo.setDuracaoEmMinutos(200);
         filmeDoPaulo.avalia(10);
 

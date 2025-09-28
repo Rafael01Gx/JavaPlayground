@@ -3,6 +3,7 @@ package br.com.rafaelgx.javaplayground.alura.principal;
 import br.com.rafaelgx.javaplayground.alura.modelos.Filme;
 import br.com.rafaelgx.javaplayground.alura.modelos.Serie;
 import br.com.rafaelgx.javaplayground.alura.modelos.Titulo;
+import br.com.rafaelgx.javaplayground.alura.modelos.TituloOmdb;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,13 +13,14 @@ import java.util.List;
 
 public class PrincipalComListas {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme("O poderoso chefão", 1970);
+        Filme meuFilme = new Filme(null);
         meuFilme.avalia(9);
-        Filme outroFilme = new Filme("Avatar", 2023);
+        Filme outroFilme = new Filme(null);
         outroFilme.avalia(6);
-        var filmeDoPaulo = new Filme("Dogville", 2003);
+        var filmeDoPaulo = new Filme(null);
         filmeDoPaulo.avalia(10);
-        Serie lost = new Serie("Lost", 2000);
+        TituloOmdb tituloOmdb = new TituloOmdb("Lost", "2000","300 min");
+        Serie lost = new Serie(tituloOmdb);
 
         Filme f1 = filmeDoPaulo;
 

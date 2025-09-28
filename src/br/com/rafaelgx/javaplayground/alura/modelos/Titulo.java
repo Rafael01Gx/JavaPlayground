@@ -1,16 +1,21 @@
 package br.com.rafaelgx.javaplayground.alura.modelos;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Titulo implements Comparable<Titulo> {
+    @SerializedName("Title")
     private String nome;
+    @SerializedName("Year")
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
     private double somaDasAvaliacoes;
     private int totalDeAvaliacoes;
     private int duracaoEmMinutos;
 
-    public Titulo(String nome, int anoDeLancamento) {
-        this.nome = nome;
-        this.anoDeLancamento = anoDeLancamento;
+    public Titulo(TituloOmdb omdb) {
+        this.nome = omdb.title();
+        this.anoDeLancamento = Integer.parseInt(omdb.year());
+        this.duracaoEmMinutos = Integer.parseInt(omdb.year());
     }
 
     public String getNome() {
@@ -50,8 +55,8 @@ public class Titulo implements Comparable<Titulo> {
     }
 
     public void exibeFichaTecnica(){
-        System.out.println("Nome do filme: " + nome);
-        System.out.println("Ano de lançamento: " + anoDeLancamento);
+        IO.println("Nome do filme: " + nome);
+        IO.println("Ano de lançamento: " + anoDeLancamento);
     }
 
     public void avalia(double nota){
